@@ -1,4 +1,5 @@
-import logger from "./logger";
+// import logger from "./logger";
+import { logger } from "./logger.js";
 var name = "pallavi";
 // console.log("it will give error");
 function add() {
@@ -10,9 +11,9 @@ function add() {
 function eslintrules() {
   const age = 21;
   if (age < 18) {
-  logger.log('error',"not eligible for vote");
+  logger.error("not eligible for vote");
   } else {
-  logger.log('info',"eligible for vote");
+  logger.info('info',"eligible for vote");
   }
 }
 add();

@@ -1,6 +1,6 @@
-const winston = require("winston");
+import winston from "winston";
 
-  const logger = winston.createLogger({
+ export const logger = winston.createLogger({
   level: "error",
   format: winston.format.json(),
   transports: [
@@ -14,7 +14,6 @@ const winston = require("winston");
     new winston.transports.File({ filename: "warn.log", level: "warn" }),
   ],
 });
-
 function add() {
     let firstNumber = 10;
     let secondNumber = 20;
@@ -40,4 +39,4 @@ function add() {
   logger.error('An error occurred.');
   logger.info('This is an informational message.');
   logger.warn('this is warning.');
-  
+
