@@ -1,0 +1,11 @@
+{"level":"info","message":"eligible for vote"}
+{"level":"info","message":"This is an informational message."}
+{"level":"error","message":"An error occurred."}
+{"level":"warn","message":"this is the warning."}
+{"level":"error","message":"An error occurred."}
+{"level":"info","message":"This is an informational message."}
+{"level":"warn","message":"this is warning."}
+{"level":"error","message":"An error occurred."}
+{"level":"error","message":"An error occurred."}
+{"level":"error","message":"An error occurred."}
+{"level":"error","message":"An error occurred."}
